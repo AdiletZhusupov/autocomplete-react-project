@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.App {
+  font-family: sans-serif;
+  margin: 0 auto;
+  width: 250px;
+}
+.inputCharName {
+  border: 1px solid grey;
+  margin-top: 40px;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+}
+.listOfCharacters {
+  list-style: none;
+}
+.listItem {
+  padding: 5px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.listItem:hover {
+  background-color: skyblue;
+  color: white;
+}
+.listItem img {
+  width: 40px;
+  height: 40px;
+}
+.listItem p {
+  padding-left: 5px;
+  width: 70%;
+}
